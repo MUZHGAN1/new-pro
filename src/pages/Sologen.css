@@ -1,0 +1,26 @@
+
+.slogan {
+    background: #ffc61a;
+    color: #000;
+}
+
+.slogan .container {
+    min-height: 290px;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.slogan h2, .slogan h1 {
+    text-align: center;
+    color: #000;
+}
+
+.slogan h2 {
+    font-size: 35px;  
+}
+
+.slogan h1 {
+    font-size: 77px;
+}

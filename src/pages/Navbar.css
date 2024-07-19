@@ -1,0 +1,54 @@
+.Navbar-title {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+/* 
+.App {
+  background-color: var(--secondary-color);
+} */
+
+
+
+
+.App {
+ 
+  justify-content: flex-end;
+  flex: 3;
+  list-style-type: none;
+}
+
+.App {
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+
+.App {
+  padding: 12px 20px 10px;
+  display: block;
+  border-radius: 17px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.5s;
+  text-align: center;
+  top: -10px;
+}
+.App {
+  background: #ffc61a;
+  color: black;
+}
+
+.logo1 {
+  flex: 1;
+  align-items: left;
+  display: flex;
+}
+
+.logo1 {
+  position: relative;
+  top: -10px;
+}
+
+
+
