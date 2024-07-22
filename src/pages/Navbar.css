@@ -2,13 +2,6 @@
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
-/* 
-.App {
-  background-color: var(--secondary-color);
-} */
-
-
-
 
 .App {
  
@@ -38,16 +31,21 @@
   background: #ffc61a;
   color: black;
 }
-
-.logo1 {
-  flex: 1;
-  align-items: left;
+ul{
   display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
+ul li{
+  padding: 25px;
+  text-decoration: none;
+  list-style: none;
 
-.logo1 {
-  position: relative;
-  top: -10px;
+}
+.navbar-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 

@@ -50,6 +50,7 @@ h3 {
     font-size: 20px;
     letter-spacing: 15px;
    /*inja rang ma sea karda bodom*/
+   color: black;
 }
 
 p {
@@ -89,7 +90,7 @@ p {
 
 
 
-
+/* en dega shoro shod */
 .hero > .container {
     text-align: center;
     min-height: 740px;
@@ -103,13 +104,8 @@ p {
 .hero h3 {
     margin-top: 15px;
 }
-.hero-car {
-    padding-top: 70px;
-    position: relative;
-    background: #ffc61a;
-    min-height: 700px;
-    
-}
+/* en moter  ast */
+
 
 
 .hero-car .container {

@@ -1,34 +1,21 @@
 import { Link } from "react-router-dom";
-// export const Navbar = () => {
-//   return (
-//     <div>
-//       <Link to="/"> Home </Link>
-//       <Link to="/menu"> Menu </Link>
-//       <Link to="/contact"> Contact </Link>
-//     </div>
-//   );
-// };
-
 import React from "react";
 import "./Navbar.css";
+import logo from "../assets/logo.png";
 
 function Navbar() {
   return (
     <div className="navbar-menu">
-    
-      <Link to="/"> Home </Link>
-      {/* <Link to="/menu"> Menu </Link> */}
-      <Link to="/service"> Service </Link>
-      <Link to="/kontạkt"> Kontakt </Link>
-      <Link to="/news"> News </Link>
-      <Link to="/about"> Überuns </Link>
-      <Link to="/tarife"> Tarife </Link>
-    
-     
+      <img src={logo} alt="" className="logo1" />
+      <ul>
+      <li><Link to="/"> Home </Link></li>
+      <li><Link to="/service">Service</Link></li>
+      <li><Link to="/kontạkt"> Kontakt </Link></li>
+      <li><Link to="/news"> News </Link></li>
+      <li><Link to="/about"> Überuns </Link></li>
+      <li><Link to="/tarife"> Tarife </Link></li>
+      </ul>
     </div>
-
-
-
 
   );
 }

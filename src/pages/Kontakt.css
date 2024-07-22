@@ -2,69 +2,7 @@
     background-color: var(--primary-color);
     color: var(--secondary-color);
 } */
-.clients h2 {
-    margin: 60px auto 0;
-    font-size: 35px;
-}
 
-.clients h1 {
-    margin-bottom: 80px;
-    margin: 0 auto 60px;
-    font-size: 44px;
-}
-
-.cloud-background {
-    position: relative;
-    background: #000;
-    border-radius: 35px;
-    padding: 45px 50px;
-    margin-bottom: 60px;
-}
-
-.cloud-background p {
-    color: #fff;
-    margin-bottom: 25px;
-}
-
-.cloud-background .picture {
-    width: 74px;
-    height: 74px;
-    border-radius: 50%;
-    background: #a4a4a5;   
-}
-
- .clients .staff-full-name,  .clients .staff-profession {
-    text-transform: uppercase;
-    font-weight: 900;
-    margin: 0 0 5px 15px;
-}
-
-.clients .staff-full-name {
-    font-size: 25px;
-    color: #ffc61a;
-}
-
-.cloud-left, .cloud-right {
-    position: absolute;
-    bottom: -30px;
-    width: 0; 
-    height: 0;  
-}
-
-.cloud-left {
-    border-bottom: 30px solid transparent;  
-    border-right: 30px solid #000; 
-    right: 15%;
-}
-
-.cloud-right {
-    border-bottom: 30px solid transparent;  
-    border-left: 30px solid #000; 
-    left: 15%;
-}
-
-
-/* FOOTER */
 footer .container {
     margin: 30px auto 60px;
     flex-direction: column;

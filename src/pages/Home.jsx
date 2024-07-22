@@ -12,9 +12,10 @@ function Home() {
         <h2> TAXI AZAMY</h2>
         <h1>BOOK TAXI NAW</h1>
         <h1> 017672992701 </h1>
+        
       </div>
     </section>
-     <section className="">
+     <section className="hero_car">
      <img src={herocar} alt="herocar" />
      <div className="container">
        <div className="row">
