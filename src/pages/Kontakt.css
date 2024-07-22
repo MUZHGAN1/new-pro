@@ -76,3 +76,71 @@ footer .footer-info .copy-write {
     color: #fff;
     font-size: 14px;
 }
+
+.main-box {
+    background: rgb(248, 87, 87);
+}
+.main-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-box {
+    padding: 1rem;
+   max-width: 30vw;
+}
+
+
+main h4 {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 30px auto;
+    color: white;
+}
+
+.line-separator {
+    width: 85%;
+    height: 8px;
+    background: #ffc61a;
+    margin-bottom: 30px;
+} 
+.social-links
+ {
+    margin-right: 20px;
+    color: #ffc61a;
+    
+ }  
+ 
+ .social-links, .phone-users {
+    margin-right: 50px;
+    color: #ffc61a;
+}
+
+.social-links:hover .fa {
+    color: #ffc61a;
+    transform: scale(1.2);
+}
+
+.social-links .fa {
+    font-size: 22px;
+    transition: 0.4s;  
+}
+
+
+.fa-android, .fa-apple {
+    font-size: 30px;
+}
+
+.contact-paragraph {
+    padding-left: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-container {
+     flex-direction: row;
+    }
+    
+}
