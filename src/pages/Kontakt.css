@@ -3,82 +3,14 @@
     color: var(--secondary-color);
 } */
 
-footer .container {
-    margin: 30px auto 60px;
-    flex-direction: column;
-    color: #fff;
-}
-
-footer h4 {
-    font-size: 25px;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin: 30px auto;
-}
-
-.line-separator {
-    width: 85%;
-    height: 8px;
-    background: #ffc61a;
-    margin-bottom: 30px;
-}
-
-footer .contact-row {
-    display: flex;
-    justify-content: center;
-}
-
-footer p {
+main p {
     margin-bottom: 30px;
     width: 85%;
-}
-
-footer .social-links, footer .phone-users {
-    margin-right: 20px;
-    color: #ffc544;
-}
-
-footer .social-links:hover .fa {
-    color: #ffc61a;
-    transform: scale(1.2);
-}
-
-footer .social-links .fa {
-    font-size: 22px;
-    transition: 0.4s;
-}
-
-footer .phone-users {
-    font-size: 20px;
-    display: inline-block;
-    width: 150px;
-    margin-bottom: 15px;
-    line-height: 30px;
-}
-
-footer .fa-android, footer .fa-apple {
-    font-size: 30px;
-}
-
-footer .contact-paragraph {
-    padding-left: 10px;
-}
-
-footer .footer-info {
-    background: #000;
-}
-
-footer .footer-info .copy-write {
-    text-align: center;
-    line-height: 35px;
-    margin-bottom: 0;
-    width: 100%;
-    color: #fff;
-    font-size: 14px;
 }
 
 .main-box {
-    background: rgb(248, 87, 87);
+    background: black;
+    
 }
 .main-container {
     border: 1px solid red;
@@ -98,6 +30,9 @@ main h4 {
     font-weight: 900;
     text-transform: uppercase;
     margin: 30px auto;
+    color: white;
+}
+main p {
     color: white;
 }
 
