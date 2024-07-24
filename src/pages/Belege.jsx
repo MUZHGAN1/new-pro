@@ -19,6 +19,7 @@ function Belege() {
             <button className="btn">Read More</button>
           </div>
           <div className="col-md-7 element-center">
+            
             <img src={Handy} width="550" />
           </div>
         </div>

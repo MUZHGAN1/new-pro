@@ -1,7 +1,7 @@
 {
   "posts": [
-    { "id": 1, "title": "Great taxi service", "author": "John Doe" },
-    { "id": 2, "title": "Best taxi in #munich", "author": "Jane Doe" }
+    { "id": 1, "title": "Great taxi service", "author": "Azamy" },
+    { "id": 2, "title": "Best taxi in #munich", "author": "Azamy" }
   ],
   "comments": [
     { "id": 1, "body": "Nice post!", "postId": 1 },
