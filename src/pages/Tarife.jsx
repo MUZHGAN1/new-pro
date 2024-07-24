@@ -5,8 +5,9 @@ import "./Tarife.css";
 function Tarife() {
   return (
     <section className="details">
+      <h1>WE MOVE YOU</h1>
+      <button className="btn">Read more</button>
       <div className="container">
-        <h1>WE MOVE YOU</h1>
         <div className="row">
           <div className="col-md-6">
             <div className="col-xs-2">
@@ -67,7 +68,6 @@ function Tarife() {
             </div>
           </div>
         </div>
-        <button className="btn">Read more</button>
       </div>
     </section>
   );

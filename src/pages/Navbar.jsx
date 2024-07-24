@@ -11,8 +11,8 @@ function Navbar() {
       <li><Link to="/"> Home </Link></li>
       <li><Link to="/service">Service</Link></li>
       <li><Link to="/kontạkt"> Kontakt </Link></li>
-      <li><Link to="/news"> News </Link></li>
-      <li><Link to="/about"> Überuns </Link></li>
+      <li><Link to="/belege"> Belege </Link></li>
+    
       <li><Link to="/tarife"> Tarife </Link></li>
       </ul>
     </div>

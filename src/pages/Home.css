@@ -93,7 +93,6 @@ p {
 /* en dega shoro shod */
 .hero > .container {
     text-align: center;
-    min-height: 740px;
     flex-direction: column;
 }
 
@@ -139,25 +138,32 @@ p {
 .hero-car .btn {
     margin: 75px 0;
 }
-
-.hero-car .col-md-6 {
+.col-md-6 {
     position: relative;
 }
 
-.hero-car .form-container {
+.form-container {
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    gap: 15px;
+
 }
 
 .call-form {
-    padding: 20px;
+    padding: 30px;
     background: #fff;
-    max-width: 75%;
+    width: 500px;
     height: 100%;
     box-shadow: 6px 6px 30px rgba(0,0,0,0.7);
+}
+.col-xs-6{
+    display: flex;
+    justify-content: space-between;
+
+}
+.x12{
+    padding: 9px;
+    margin-top: 15px;
 }
 
 .hero-car .form-header {

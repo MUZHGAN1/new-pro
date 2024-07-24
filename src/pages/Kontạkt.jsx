@@ -6,7 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
 import { FaApple } from "react-icons/fa";
 import { FaRoad } from "react-icons/fa";
-
+import Überuns from "./Überuns";
 import "./Kontakt.css";
 
 function Kontạkt() {
@@ -111,7 +111,9 @@ function Kontạkt() {
             </div>
           </div>
         </div>
-      </main>
+        </main>
+        <Überuns/>
+      
     </>
   );
 }

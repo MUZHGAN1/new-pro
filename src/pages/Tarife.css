@@ -1,4 +1,65 @@
-.tarife-title {
+/* .tarife-title {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+} */
+
+
+
+
+.main_container .row > .col-md-6 {
+    display: flex;
+}
+
+.details h2 {
+    margin-top: 80px;
+    font-size: 35px;
+    text-align: center;
+  
+}
+
+.details .row .row {
+    padding: 0;
+}
+
+.details h1 {
+    font-size: 44px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.details h3 {
+    letter-spacing: inherit;
+    color: #daa505;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.details p {
+    margin-bottom: 30px;
+}
+
+.details .fa-background {
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #000;
+    line-height: 50px;
+    background: #daa505;
+}
+
+.details .btn {
+    margin: 30px auto;
+    width: 220px;
+    font-size: 18px;
+    background: #daa505;
+    color: #000;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.details .btn:hover {
+    background: #fff;
+    border-color: #fff;
 }

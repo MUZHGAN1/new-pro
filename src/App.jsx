@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import News from "./pages/News";
-import Überuns from "./pages/Überuns";
+import Belege from "./pages/Belege";
+
 import Tarife from "./pages/Tarife";
 import Service from "./pages/Service";
 import Menu from "./pages/Menu";
@@ -20,9 +20,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/news" element={<News />} />
+          <Route path="/belege" element={<Belege />} />
           <Route path="/menu" element={<Menu />} />
-          <Route path="/about" element={<Überuns />} />
+          
           <Route path="/tarife" element={<Tarife />} />
           <Route path="/service" element={<Service />} />
           <Route path="/kontạkt" element={<Kontạkt />} />

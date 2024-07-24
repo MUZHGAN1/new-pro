@@ -3,7 +3,7 @@
     color: var(--secondary-color);
 } */
 .order {
-    background: white;
+    background: rgb(239, 21, 21);
 }
 
 .order h2 {
@@ -17,29 +17,34 @@
     margin: 5px auto 25px;
 }
 
-.order h3 {
-    letter-spacing: inherit;
-    text-transform: inherit;
-    color: #000;
-    font-size: 24px;
-    margin-bottom: 30px;
+.col-md-5 h3{
+    color: black;
+    font-size: 21px;
+    margin-top: 50px;
+   width: 50%;
+   padding-right: 50px;
+   text-align: left;
 }
 
-.order p {
-    color: #010101;
-    width: 80%;
+.col-md-5  p {
+    color: black;
+    margin-top: 40px;
+    width: 50%;
+    padding-right: 50px;
+    text-align: left;
 }
 
-.order .btn {
+ .btn {
     display: block;
     margin: 15px 25px;
     font-size: 16px;
     border-radius: 15px;
     padding: 10px 15px;
-    width: 50%;
+    width: 20%;
+    
 }
 
-.order img {
+.col-md-7 {
     position: relative;
-    right: 150px;
+    padding-left: 50%;
 }

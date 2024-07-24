@@ -36,7 +36,8 @@ function Home() {
          <div className="col-md-6">
            <div className="form-container">
              <form className="call-form">
-               <h3 className="form-header">Taxi</h3>
+             <h3 className="form-header">Taxi</h3>
+               
                <div className="row">
                  <div className="col-xs-6">
                    <label>Name</label>
@@ -66,11 +67,11 @@ function Home() {
                    <label>End</label>
                    <input type="text" />
                  </div>
-                 <div className="col-xs-12">
+                 <div className="col-xs-6">
                    <label>Choose Vehicle</label>
                    <input type="text" />
                  </div>
-                 <input type="submit" value="submit" />
+                 <input type="submit" value="submit" className="x12" />
                </div>
              </form>
            </div>
