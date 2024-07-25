@@ -2,16 +2,25 @@
 
 // import logo from "./assets/logo.png";
 import herocar from "../assets/herocar.jpg";
-
+import axios from "axios";
 import "./Home.css";
+
 function Home() {
+  axios.get('http://localhost:3000/posts')
+  .then(res => {
+    
+    
+  })
+     
   return (
     <>
     <section className="hero">
       <div className="container">
-        <h2> TAXI AZAMY</h2>
+       
+        <h2> TAXI AZAMY </h2>
         <h1>BOOK TAXI NAW</h1>
         <h1> 017672992701 </h1>
+       
         
       </div>
     </section>
@@ -79,7 +88,8 @@ function Home() {
        </div>
      </div>
    </section>
-   
+
+  
    {/* <Service />
       <Tarife />
       <News />
